@@ -11,3 +11,15 @@ rendering the visible page.
 https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
 
+The window and document objects
+
+Each time your browser loads and display a page, it creates in memory an internal respresentation 
+of the page and all its elements, the DOM. In DOM, elements of your web page have a logical, hierarchical structure,
+like a tree of interconnected parent and child objects.
+
+In the top if the hierarchical tree is the browser window object. This object ia a parent or 
+ancester to everything else in the DOM representation of your page.
+
+Window has various child objects -- Document, Location, History, Mavigator
+
+
