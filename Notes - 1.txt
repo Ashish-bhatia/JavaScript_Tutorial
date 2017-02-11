@@ -1,0 +1,13 @@
+Introducing the DOM
+
+* A document object model is a conceptual way of visulaizing a document and its content.
+
+Each time your browser is asked to load and display a page, it needs to interpret(parse)
+the source code contained in the HTML file comprising the page.As part of 
+parsing process, the browser creates a type of internal model known as a DOM representation 
+based on the content of the loaded document. It is this model that the browser refers to when 
+rendering the visible page.
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+
