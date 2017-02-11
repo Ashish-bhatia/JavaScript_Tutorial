@@ -23,3 +23,19 @@ ancester to everything else in the DOM representation of your page.
 Window has various child objects -- Document, Location, History, Mavigator
 
 
+Including JavaScript in your web page:
+
+1) You can include direct java script statements.
+<script>
+    Enter your JavaScript Statements here.
+</script>
+2) You can specify any extra file in same.
+
+<script src = "/home/documents/as.js"> </script>
+
+3) You can use any links JS in your code.
+
+<script src="www.g.com/as.js"></script>
+
+4) Point to be note is that you can use multiple times
+<script> tag.
