@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Tutorial 7 JavaScript -- Variable Scope local and global
+        </title>        
+    </head>
+    <body>
+        <script type="text/javascript">  // Tag to include JavaScript in HTML. 
+        var a = 25;    //declare global variable
+        var b = 30; 
+        function scope(){
+            var a = 35;  // declare new value to it
+            b = 40;      // change value of global variable
+            document.write("variable a in function : " + a + " global variable: "+ b + "<br />");
+        }
+        scope(); // Calling a function.
+        document.write("outside function "+" <br />");
+        document.write("variable a: " + a + " global variable: "+ b +"<br />");
+        /* Take Aways: - Inside the function local scope work.
+                       - outside the function global scope.
+                       - if you change any global value it will effect everywhere.
+        */
+
+        </script>
+    </body>
+</html>
