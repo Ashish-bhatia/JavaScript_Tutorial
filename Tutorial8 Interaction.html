@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Tutorial 8 JavaScript -- Interaction with user
+        </title>        
+    </head>
+    <body>
+        <script type="text/javascript">  // Tag to include JavaScript in HTML. 
+        // Alert popup
+        alert("Hi This is alert box");
+        
+        /* Take aways - It is a method to pop up an information dialog for the user.
+                      - It will simply shows your message with a single OK.
+                      - It takes string as argument.
+        */
+        // Confirm popup
+        var ans = confirm("Will you like to chat?");
+        document.write(typeof(ans)+"<br/>");
+        document.write(ans+"<br/>");
+        /* Take aways - It is a method to pop up an information dialog for the user.
+                      - It will shows your message with a OK and Cancel option.
+                      - As user can choose any option the value of confirm box should be recieved by a boolean variable.
+                      - If you select OK -- True
+                      - If you select Cancel -- False.
+        */
+        //prompt popup
+        var input = prompt("Enter your Name Please","Enter Name here");
+        document.write(input);
+        /* Take aways - Prompt will give place to user to enter a value. 
+                      - It will send the value back to recieving variable.
+                      - It takes two paramters.First one is the text and other one is the default value.
+        */
+        </script>
+    </body>
+</html>
