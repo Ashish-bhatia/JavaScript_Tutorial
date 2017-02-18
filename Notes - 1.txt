@@ -39,3 +39,10 @@ Including JavaScript in your web page:
 
 4) Point to be note is that you can use multiple times
 <script> tag.
+
+5) Sometime it makes sense to store multiple variable values under a single variable name. JavaScript has array data type 
+to help you on this. 
+    An array is a type of object used for storing multiple values in a single variable.
+    Each value has a numeric index that may contain data of any data type - Booleans, numbers, strings, functions,
+    objects and even other arrays.
+    

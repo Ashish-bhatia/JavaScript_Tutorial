@@ -7,13 +7,33 @@
     </head>
     <body>
         <script type="text/javascript">  // Tag to include JavaScript in HTML. 
-        document.write("Hello World"); // This command will write the details to web- browser.
-
+        var string1 = "This is first sentence";
+        var string2 = " and second sentence";
+        var combineString = string1.concat(string2);
+        console.log("Concat executed");
+        document.write("Concatenated string: " + combineString + "<br/>");
+        var index1 = string1.indexOf('first'); // Index start from 0.
+        document.write("Index of 'first' word: "+index1+ "<br/>");
+        var stringrep = string1.replace("first","third");
+        document.write("Replaced sentence: "+ stringrep+"<br/>");
+        var substrng = string1.substr(4,11);
+        document.write("SubString value from 4 to 11: "+substrng+"<br/>");
+        var strupper = string2.toUpperCase();
+        var strlower = string2.toLowerCase();
+        document.write("String upperCase: " + strupper + " String Lowercase: "+ strlower +"<br/>")
         /* Take Aways - There are lot of string method already defined in javascript.
                       - concat: joins strings and returns a copy of the joined string.
                       - indexOf: returns the position of first occurrence of a specified value in a string.
+                      - Also if the string you are looking for is not in string it returns -1.
                       - lastIndexOf: returns the position of last occurrence of a specified value in a string.
-                      - replace: 
+                      - replace: Searches for a match between a substring and a string, and replaces the substring
+                        with a new strng.
+                      - split : Splits a strng into an array of substrings, and returns the new array.
+                      - substr :Extracts a substring from a string, beginning at a specified start 
+                        position, through the specified number of character.
+                      - tolowercase : converts a string to lowercase letters.
+                      - touppercase : converts a string to uppercase letters.
+            */
         </script>
     </body>
 </html>

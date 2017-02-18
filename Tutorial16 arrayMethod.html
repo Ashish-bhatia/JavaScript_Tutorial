@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Tutorial 1 JavaScript -- Hello World
+        </title>        
+    </head>
+    <body>
+        <script type="text/javascript">  
+        var myArray1 = ["Sunday","Monday","Tuesday"];   
+        var myArray2 = ["Wednesday","Thrusday","Friday","Saturday","Sunday"] ; 
+        var fullweek = myArray1.concat(myArray2);
+        document.write("Full week is " + fullweek+ " and type of it is: "+ typeof(fullweek) + "<br/>" );
+        var weektogether = fullweek.join();
+        document.write("Full week is " + weektogether + " and type of it is: "+ typeof(weektogether)+ "<br/>"); // by default it adds a comma(,)between elements.
+        var weektogethernow = fullweek.join("-");
+        document.write("Full week is " + weektogethernow + "<br/>"); //It will add hyphen(-) among the string.
+
+        /* Take Aways : - Some of the array method has the same name as string. 
+                        - concat: joins multiple arrays.
+                        - join: Join all the elements of the array in the string.
+                        - toString: returns the array as a string.
+                        - indexof: Searchs the array for specific elements.
+                        - lastindexof: returns the last item in the array that matches the search creteria.
+                        - slice: returns a new array from the specified index and length.
+                        - sort: Sorts the array alphabetically or by supplied function 
+                        - splice: Adds or deletes the specified index(es) to or from the array.
+                            
+                        }
+        */
+        </script>
+    </body>
+</html>
