@@ -45,4 +45,8 @@ to help you on this.
     An array is a type of object used for storing multiple values in a single variable.
     Each value has a numeric index that may contain data of any data type - Booleans, numbers, strings, functions,
     objects and even other arrays.
+6) Conditional statements, as the name implies, are used to detect particular conditions arising in the values
+    of variables you are using in your script. 
+    We saw Boolean variables, which can take two values - True/False. 
+7) 
     
