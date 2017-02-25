@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Tutorial 19 JavaScript -- Loops
+        </title>        
+    </head>
+    <body>
+        <script type="text/javascript">  // Tag to include JavaScript in HTML. 
+            var x = 10;
+            while(x>5){
+                document.write("value of x: ",x +"<br/>");
+                x--;
+            }       
+            document.write("For Loop "+"<br/>");
+           for(i=0;i<x;i++){
+                document.write("value of i is: ",i+"<br/>");
+            }
+            document.write("Do While Loop"+"<br/>");
+            do{
+                document.write("this will execute always"+"<br/>");
+            }while(x>11) // the condition is false still it execute once.
+           // One special type of loop For - In 
+           document.write("For In loop "+"<br/>");
+           var days =["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+           for(day in days){
+               document.write("Day is "+days[day]+"<br/>");
+           }  
+        
+        /* Take aways : Loops are used to do something in repeated manner. 
+                        For loop, while loop, Do-While loop 
+
+        */
+        </script>
+    </body>
+</html>

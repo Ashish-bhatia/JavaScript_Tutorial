@@ -48,5 +48,17 @@ to help you on this.
 6) Conditional statements, as the name implies, are used to detect particular conditions arising in the values
     of variables you are using in your script. 
     We saw Boolean variables, which can take two values - True/False. 
-7) 
+7) Procedural programming: Procedural programming is characterized by having data stored in variables, which are operated on by lists
+of instruction. Each instruction ( or list of instructions, such as function) can create, destory modify the data,
+yet the data always remains somehow "separate" from the program code.
+8) In OOPS concept, the program instructions and the data on which they operate are more interwined. OOP is a way of conceptualizing a program's data into 
+descrete "things" referred to as objects -- Each having its own properties data and method(instructions)
+9) benefits of OOP: - Code Reuse
+                    - Encapsulation 
+                    - Inheritence
+
+10) javascript offers several ways to create an object.
+    a) Create a direct instance -- JavaScript has a built in object simply called Object that you can use as a kind of blank 
+    canvas. 
+
     
