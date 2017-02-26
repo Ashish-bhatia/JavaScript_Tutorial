@@ -60,5 +60,13 @@ descrete "things" referred to as objects -- Each having its own properties data 
 10) javascript offers several ways to create an object.
     a) Create a direct instance -- JavaScript has a built in object simply called Object that you can use as a kind of blank 
     canvas. 
+11) Extending and Inheriting Objects using Prototype:
+    A major advantage of using objects is the capability to reuse already written code in a new context.
+    JavaScript provides a means to modify objects to include new methods and/or properties or even to create brand new objects
+    based on ones that already exists.
+    These techniques are called as extending or inheriting objects.
+12) Inheritance - Inheritance is the capablity to create one object type from another; the new object type inherits
+the properties and methods of the old, as well
+
 
     

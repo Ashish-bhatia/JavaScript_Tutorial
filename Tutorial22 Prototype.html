@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Tutorial 21 JavaScript -- Create Objects using constructor function.
+        </title>        
+        <script type="text/javascript">
+            function myObjectDef(){
+                this.info = "I am self made info";
+                this.ShowInfo = function(){
+                    alert(this.info);
+                }
+                this.setInfo = function(newInfo){
+                    this.info = newInfo;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">  // Tag to include JavaScript in HTML. 
+            var obj1 = new myObjectDef();
+            var obj2 = new myObjectDef();
+            obj1.setInfo("New Info");
+            obj1.ShowInfo();
+            obj2.setInfo("Test New Info");
+            obj2.ShowInfo();
+            myObjectDef.prototype.showLatestInfo = function(){
+                alert("New Method");
+            }
+            obj2.showLatestInfo();
+         </script>
+    </body>
+</html>
